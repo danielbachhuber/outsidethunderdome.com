@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Inside Thunderdome &#187; Vaughn Hagerty</title>
+	<atom:link href="http://insidethunderdome.com/author/vhagerty/feed/" rel="self" type="application/rss+xml" />
+	<link>http://insidethunderdome.com</link>
+	<description></description>
+	<lastBuildDate>Wed, 30 Apr 2014 20:03:12 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>How we did it: Denver Post and Pioneer Press launch local crime maps</title>
+		<link>http://insidethunderdome.com/2013/11/08/denver-crime-map-post-data-team/</link>
+		<comments>http://insidethunderdome.com/2013/11/08/denver-crime-map-post-data-team/#comments</comments>
+		<pubDate>Fri, 08 Nov 2013 16:00:04 +0000</pubDate>
+		<dc:creator><![CDATA[Vaughn Hagerty]]></dc:creator>
+				<category><![CDATA[Behind the Scenes]]></category>
+		<category><![CDATA[crime map]]></category>
+		<category><![CDATA[Data]]></category>
+		<category><![CDATA[Denver Post]]></category>
+		<category><![CDATA[pioneer press]]></category>
+
+		<guid isPermaLink="false">http://insidethunderdome.com/?p=4879</guid>
+		<description><![CDATA[Pins on a map. That’s what probably comes to most people’s minds when they think of what has come to be known as a "crime map," an online tool for displaying crimes that have occurred over a specific timeframe in a geographic area, usually a city or a county.]]></description>
+				<content:encoded><![CDATA[<p><img width="150" height="150" src="http://insidethunderdome.com/content/uploads/2013/11/Screen-Shot-2013-11-07-at-8.32.27-PM-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="Screen Shot 2013-11-07 at 8.32.27 PM" /></p><p><em><a href="https://twitter.com/mndatamine" target="_blank">MaryJo Webster</a> of the Pioneer Press contributed to this report.</em></p>
+<p>Pins on a map. That’s what probably comes to most people’s minds when they think of what has come to be known as a &#8220;crime map,&#8221; an online tool for displaying crimes that have occurred over a specific timeframe in a geographic area, usually a city or a county.</p>
+<p>That’s how it was with arguably the grandfather of all such apps, the now defunct <a href="http://chicagocrime.org" target="_blank">chicagocrime.org</a>, a display of crimes in the Windy City built by <a href="https://twitter.com/adrianholovaty" target="_blank">Adrian Holovaty</a>. And it’s where we started when considering how to build our own crime maps recently launched by the <a href="stpaulcrime.twincities.com" target="_blank">Pioneer Press in St. Paul</a> and this week at the <a href="http://crime.denverpost.com" target="_blank">Denver Post</a>.</p>
+<p>But, pins on a map only gets you so far. It’s difficult to see trends, and while you can draw neighborhood boundaries on the same map, it still doesn’t tell you what all those pins mean beyond &#8220;a crime happened here.&#8221;</p>
+<p><strong>More than pins on a map</strong><br />
+That was the challenge for the Thunderdome data team when we began to envision how this project would look and how someone might use it. Luckily for us, crime maps have evolved since Holovaty’s original. The <a href="http://crime.chicagotribune.com/" target="_blank">Chicago Tribune’s own crime app</a> is a good example, ranking neighborhoods by crime per capita, among other things. <a href="http://maps.latimes.com/crime/" target="_blank">The Los Angeles Times</a> focuses on trends in communities, using colors to indicate whether crime is edging up or down. These were some of the types of ideas we incorporated into our design.</p>
+<p>The main page of our map aims to give users an overview of their town, showing the number of crimes by time or location and whether crime is up or down in particular neighborhoods. Visitors can drill down to the neighborhood level from there, showing – yes – pins on a map, as well as trends for that area.</p>
+<p>This first iteration, we think, is fairly simple and easy to use. We&#8217;re considering other features to incorporate in later releases — more filtering options on the main page or the ability to search for a specific crime, for example. Much of that will be driven by feedback from site users and from our newsrooms. Let us know what you think and leave a comment on this post.</p>
+<p><strong>What&#8217;s under the hood?</strong><br />
+On the technology side, we obviously used <a href="https://maps.google.com/" target="_blank">Google maps</a>, as well as Google’s Visualization API, <a href="http://jquery.com/" target="_blank">jQuery</a>, a JavaScript templating library called <a href="http://handlebarsjs.com/" target="_blank">Handlebars</a> and a date library called <a href="http://www.datejs.com/" target="_blank">date.js</a>. All of the sorting, filtering and aggregation happens on the front end in JavaScript, almost all of which is custom-written for this app.</p>
+<p>The app never touches a database. Initially, it loads data for all of the current month plus the previous month. It loads earlier data a month at a time as it needs it. This part of the project (inspired in part by a comment from NPR’s <a href="https://twitter.com/brianboyer" target="_blank">Brian Boyer</a> that &#8220;<a href="http://blog.apps.npr.org/2013/02/14/app-template-redux.html?" target="_blank">servers are for chumps</a>&#8220;) is somewhat of an experiment and may change in future versions. Databases are a common bottleneck for online apps, and this lets us avoid that. But these so-called &#8220;baked-out&#8221; files also can be a limitation. They’re fairly big, so the initial page load can be a little slow. They also may limit the amount of customization we can offer.</p>
+<p><strong>Where does the data come from?</strong><br />
+Obviously, none of this would be possible without the crime data itself. For those Digital First Media properties (or anyone for that matter) who want something similar, the first place to start is with the data. It’s important to note that this data isn’t like the <a href="http://www.fbi.gov/about-us/cjis/ucr/ucr" target="_blank">Uniform Crime Statistics</a> that the FBI puts out every year. You really can’t build something like this from aggregate information. You need some sort of constantly updated feed of individual crimes with, at a minimum, an address or at least a block number, a crime type and a time of occurrence.</p>
+<p>In the case of Denver, the information comes over as a comma-separated value file, with latitude and longitude included. That’s probably the best anyone could hope for. No scraping. No geocoding. Just pull and slurp into the table.</p>
+<p>St. Paul’s is a bit more complicated. First, it’s posted in Excel files on the <a href="http://www.stpaul.gov/index.aspx?nid=461" target="_blank">police department’s website</a>. Second, it has to be geocoded. This is complicated further because the last digit of the number in the addresses has been redacted and the addresses are fairly freeform: some non-standard street-type abbreviations (La for Lane) and some streets whose names are really two words but come over without a space (Mississippiriver). We’ve tried to account for some of this on the back end when we process the data, but some addresses slip through with incorrect locations. So, we created a very rough tool that <a href="https://twitter.com/mndatamine" target="_blank">MaryJo Webster</a> uses to correct the strays.</p>
+<p>Partly because of this geocoding challenge, MaryJo used ArcMap to geocode historical data, back to the start of 2010, for the Pioneer Press map. She was able to resolve some of the data problems noted above before the geocoding to get better results.</p>
+<p>One of the other challenges with the St. Paul data, which will likely be true in other jurisdictions, is that very few homicides show up. The data includes only certain crime types —primarily the big ones — but it’s common that the police department classifies a murder as a &#8220;death investigation&#8221; and that designation often doesn’t get adjusted in their computer system until a suspect is charged, typically long after the time the data shows up online.</p>
+<p><strong>How has St. Paul responded to the Pioneer Press crime map?</strong><br />
+Reaction from Pioneer Press readers was swift and included both compliments and criticisms, although most were constructive in nature. One reader was excited to be able to zoom into her neighborhood and find the burglary she had reported to police a few weeks earlier.</p>
+<p>The St. Paul mayor’s spokesperson sent a note to the Pioneer Press criticizing the way the initial view of the map color shades the neighborhoods as having crime &#8220;up&#8221; or &#8220;down&#8221; compared to the past. Like many readers, he misunderstood that the comparison of the current month was not to the previous month, but rather the average of the previous 12 months (and it only indicates a change if it’s at least one standard deviation up or down). He wanted us to change it to compare to the same month one year previously, which is how the police department looks at crime trends. That’s not really practical for this app, though, given that we allow users to select the beginning and end dates (up to 31 days&#8217; worth) of data to display, we’d have to try to calculate quite a few &#8220;averages&#8221; to accomplish that. This may be something that we address in future versions, though.</p>
+<p>Despite the criticism, the mayor’s spokesperson was mostly impressed, saying, &#8220;It’s a really cool and useful feature, and I think we should be doing more of this kind of thing at the city.&#8221;</p>
+<p>Some older readers were frustrated that the map wasn’t included in the print edition (there was only a short story). MaryJo tried to explain that it simply wouldn’t be possible to recreate the full experience of the crime map in print. After hearing an explanation of what the map could do, one of them said she would venture out to the public library to see if somebody would help her navigate the Internet to find the map. Before hanging up, she asked if it would be online just that day, or &#8220;would it be okay to go tomorrow?&#8221;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://insidethunderdome.com/2013/11/08/denver-crime-map-post-data-team/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Dynamic page generated in 0.413 seconds. -->
+<!-- File not cached! Super Cache Couldn't write to: /var/www/vhosts/dfmops.com/tdcms/content/cache/wp-cache-authora5872b9f0e766c5244bc2af7d449b031.html -->

@@ -1,0 +1,202 @@
+<!DOCTYPE html><!--  
+        .                                 .o8       oooo
+      .o8                                "888       `888
+    .o888oo oooo  oooo  ooo. .oo.  .oo.   888oooo.   888  oooo d8b
+      888   `888  `888  `888P"Y88bP"Y88b  d88' `88b  888  `888""8P
+      888    888   888   888   888   888  888   888  888   888
+      888 .  888   888   888   888   888  888   888  888   888    .o.
+      "888"  `V88V"V8P' o888o o888o o888o `Y8bod8P' o888o d888b   Y8P       
+
+                                                                        -->
+<!--[if lt IE 7]>      <html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7 " lang="en"> <![endif]--><!--[if IE 7]>         <html class="no-js ie ie7 lt-ie9 lt-ie8 " lang="en"> <![endif]--><!--[if IE 8]>         <html class="no-js ie ie8 lt-ie9 " lang="en"> <![endif]--><!--[if IE 9]>         <html class="no-js ie9 " lang="en"> <![endif]--><!--[if gt IE 9]><!--> <html class="no-js  " lang="en"> <!--<![endif]--><head><title>Log in | Tumblr</title>
+<!--[if ie]><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/><![endif]--><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta http-equiv="x-dns-prefetch-control" content="off"/><meta name="application-name" content="Tumblr"/><meta name="robots" content="noodp,nooydir" id="robots"><meta name="description" content="Log in to your Tumblr account to start posting to your blog." id="description"><meta name="keywords" content="tumblelog, blog, tumblog, tumbler, tumblr, tlog, microblog" id="keywords"><meta name="viewport" content="width=960" id="viewport"><meta name="tumblr-form-key" content="!1231399412359|8Ht6gerFcBgYIsnpxkh936l4yFM" id="tumblr_form_key"><meta name="msapplication-TileColor" content="#2c4762"/><meta name="msapplication-TileImage" content="https://secure.assets.tumblr.com/images/msfavicon.png?_v=1264dab417c706a8be8f641f391ed007"/><link rel="shortcut icon" href="https://secure.assets.tumblr.com/images/favicons/favicon.ico?_v=0" /><link rel="apple-touch-icon-precomposed" href="https://secure.assets.tumblr.com/images/apple_touch_icon.png?_v=fc779756c04adab33e22a0d2a69241c1"/>
+<link rel="stylesheet" media="screen" href="https://secure.assets.tumblr.com/assets/styles/global.css?_v=76a29632d3ae905887b15e2d872d4083"><link rel="stylesheet" media="screen" href="https://secure.assets.tumblr.com/assets/styles/onboarding.css?_v=affdcf13d98a1db094fa4e28efbe94b0"><link rel="stylesheet" media="screen" href="https://secure.assets.tumblr.com/assets/styles/form_classic_onboarding.css?_v=2877896222f7d9e219c84e379994ee07"><script>
+            var tinyMCE,_sf_startpt=(new Date()).getTime();
+        </script><script type="text/javascript">
+     var __ = (function() {
+
+        var translation = {
+
+            "There was an error. Please try again." : 'There was an error. Please try again.',
+            "Oops. There was an error. Try again." : 'Oops. There was an error. Try again.',
+
+            "Don't forget your email address!" : 'Don\'t forget your email address!',
+            "You forgot to enter your email address!" : 'You forgot to enter your email address!',
+
+            "Don't forget your password!" : 'Don\'t forget your password!',
+            "You forgot to enter your password!" : 'You forgot to enter your password!',
+
+            "Don't forget your username!" : 'Don\'t forget your username!',
+            "You forgot to enter your username!" : 'You forgot to enter your username!',
+
+            "Verification is required. Please try again." : 'Verification is required. Please try again.',
+
+            "Don't forget to tell us your age!" : 'Don\'t forget to tell us your age!',
+            "You forgot to tell us your age." : 'You forgot to tell us your age.',
+
+            "Please enter a number!" : 'Please enter a number!',
+            "Please enter your age as a number only!" : 'Please enter your age as a number only!',
+
+            "One more thing &ndash; please accept our Terms!" : 'One more thing \x26ndash; please accept our Terms!',
+            "You must accept Tumblr's terms before proceeding." : 'You must accept Tumblr\'s terms before proceeding.',
+
+            "Don't forget to fill out the Captcha!" : 'Don\'t forget to fill out the Captcha!',
+            "Please fill out the Captcha." : 'Please fill out the Captcha.',
+
+            "That's not a valid email address. Please try again." : 'That\'s not a valid email address. Please try again.',
+
+            "That email address is already in use. Please try again." : 'That email address is already in use. Please try again.',
+            "That email address is already associated with another account." : 'That email address is already associated with another account.',
+
+            "Oops. Did you mean %1$s ?" : 'Oops. Did you mean %1$s ?',
+
+            "Please choose a stronger password." : 'Please choose a stronger password.',
+            "Sorry, your username cannot start with a hyphen. Try again." : 'Sorry, your username cannot start with a hyphen. Try again.',
+            "Sorry, your username cannot end with a hyphen. Try again." : 'Sorry, your username cannot end with a hyphen. Try again.',
+            "Sorry, your username cannot contain Tumblr. Try another one." : 'Sorry, your username cannot contain Tumblr. Try another one.',
+        };
+
+        return function(string) {
+            return translation[string] || string;
+        };
+
+    })();
+</script>
+<script>
+(function(root, exports, store) {
+    'use strict';
+    function decode(s) {
+        var e={},i,b=0,c,x,l=0,a,r='',w=String.fromCharCode,L=s.length;
+        var A='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
+        for(i=0;i<64;i++){e[A.charAt(i)]=i;}
+        for(x=0;x<L;x++){
+            c=e[s.charAt(x)];b=(b<<6)+c;l+=6;
+            while(l>=8){((a=(b>>>(l-=8))&0xff)||(x<(L-2)))&&(r+=w(a));}
+        }
+        return r;
+    }
+    function isFunction(fn) { return (typeof fn === 'function'); }
+    function maybeCall(fn, val) { return isFunction(fn) ? fn.call(this, val) : fn; }
+    try { store = JSON.parse((isFunction(root.atob)?root.atob:decode)(store)); } catch (err) { store = {}; }
+
+    exports.Flags = function Flags(name) {
+        var has = !!(store[name]);
+        return function flag(accept, reject) {
+            var result = maybeCall.call(this, (has ? accept : reject), has);
+            return (result !== void 0) ? result : flag;
+        };
+    };
+
+    exports.Flags.bool = function FlagsBool(name) {
+        return !!(store[name]);
+    };
+})(this, this.Tumblr || (this.Tumblr = {}), "eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwibG9nZ2VkX291dF9zZWFyY2giOnRydWUsInNlY3VyZV9mb3JtX2tleSI6dHJ1ZSwic2VjdXJlX2Zvcm1fa2V5X2Z1bGx5X29uIjp0cnVlLCJ0dW1ibGVsb2dfcG9wb3ZlciI6dHJ1ZSwiZW5hYmxlX2NhcHR1cmVfanMiOnRydWUsImVuYWJsZV9ldmVudGJ1ZyI6dHJ1ZSwibmV3X3Bvc3RfZm9ybXMiOnRydWUsInRhYmxldF9iYW5uZXJfYWN0aXZlIjp0cnVlLCJtb2JpbGVfYmFubmVyX2FjdGl2ZSI6dHJ1ZSwidXNlcl9tZW50aW9ucyI6dHJ1ZSwiaHRtbDVfYXVkaW9fcGxheWVyIjp0cnVlLCJwb3B0aWNhX3R1bWJsZWxvZ19wb3BvdmVycyI6dHJ1ZSwidGFiX3N3aXRjaGVyIjp0cnVlLCJmYXN0X2NvbXBvc2UiOnRydWUsImVuYWJsZV9qc19lcnJvcnNfbG9nIjp0cnVlLCJlbmFibGVfanNfZXBoZW1lcmFsX2xvZyI6dHJ1ZSwianNfZXJyb3JzX2IiOnRydWUsImxvZ19sYWR5Ijp0cnVlfQ==");
+</script>
+<script>if (top != self) top.location = self.location;</script><script src="https://secure.assets.tumblr.com/languages/strings/en_US.js?1342"></script><script crossorigin="anonymous" src="https://secure.assets.tumblr.com/client/prod/scripts/vendor/index.js?_v=06e871784b30292ccadfb295e6203b47"></script><script crossorigin="anonymous" src="https://secure.assets.tumblr.com/assets/scripts/tumblr/utils/exceptions.js?_v=100941ee8277eb59baabb2c93b1d726c"></script><script crossorigin="anonymous" src="https://secure.assets.tumblr.com/assets/scripts/polyfills.js?_v=b86d480b63007da45412e677f396129d"></script><script>
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-97144-8']);
+            _gaq.push(['_setAllowLinker', true]);
+            _gaq.push(['_setDomainName', 'tumblr.com']);
+                            _gaq.push(['_setCustomVar', 2, 'User_Logged_In', 'No', 3]);
+                _gaq.push(['_trackPageview', '/login?route=%2Flogin']);
+            
+            (function() {
+                var s = document.createElement('script');
+                var el = document.getElementsByTagName('script')[0];
+                s.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                el.parentNode.insertBefore(s, el);
+            })();
+
+            // Google Universal Analytics
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-97144-14', 'tumblr.com', {
+                'allowLinker': true,
+                'sampleRate': 0.7
+            });
+                            ga('set', 'dimension2', 'No');
+                ga('send', 'pageview', '/login?route=%2Flogin');
+            </script></head><body id="account_login_and_register"        
+    class="is_bookmarklet signup_login show_form signup_login now logged_out account_login_and_register logged_out without_auto_paginate layout_onboarding"        
+    ><div class="logged_out_container" id="logged_out_container"><div class="logged_out_header" id="header"><h1 class="logo " id="logo"><a class="logo_anchor" href="https://www.tumblr.com/">Tumblr</a></h1>
+<div class="signup_buttons"><a href="https://www.tumblr.com/register" id="signup_button_signup" class="login_signup_button chrome shallow signup other_blue">Sign up</a><a href="https://www.tumblr.com/login" id="signup_button_login" class="login_signup_button chrome shallow login">Log in</a><a href="https://www.tumblr.com/" id="signup_button_cancel" class="login_signup_button chrome shallow cancel">Cancel</a></div></div><div id="signup_forms" class="signup_forms clearfix"><div id="signup_forms_container" class="signup_forms_container clearfix"><div id="signup_forms_panel" class="signup_forms_panel clearfix"><form class="signup_form_form" id="signup_form" method="post" action="https://www.tumblr.com/login" data-secure-action="https://www.tumblr.com/login" data-secure-ajax-action="https://www.tumblr.com/svc/account/register"><div class="signup_view account login" id="signup_account"><div class="form_row form_row_email"><label for="signup_email">Email</label><input type="email" name="user[email]" placeholder="Email" id="signup_email"  
+                                    data-required="required"  /></div><div class="form_row form_row_password"><label for="signup_password">Password</label><input type="password" name="user[password]" placeholder="Password" id="signup_password" data-required="required"/><a href="https://www.tumblr.com/forgot_password" class="forgot_password_link" tabindex="-1">Password help<b class="question_mark">?</b></a></div><div class="form_row username"><label for="signup_username">Username</label><input type="text" name="tumblelog[name]" class="signup_username" placeholder="Username" id="signup_username" maxlength="32" autocorrect="off" autocapitalize="off"  /></div></div><div class="signup_view birthday" id="signup_birthday"><div class="form_row"><div class="form_field age"><label for="signup_age" class="signup_age_label is_empty years_old"><b></b> <span class="placeholder">How old are you?</span><span class="years_old">years old</span><span class="years_young">years young</span></label><input type="text" name="user[age]" id="signup_age" value="" id="signup_age" class="signup_age is_empty" size="3" min="1" max="125" data-required="required" /></div></div><div class="form_row tos"><input type="checkbox" name="user[tos]" id="signup_tos" data-required="required" value="1"/> <label for="signup_tos">I have read, understand, and agree to the Tumblr <a href="https://www.tumblr.com/policy/" class="signup_terms_link" target="_new">Terms of Service</a>.</label></div></div><div class="captcha signup_view" id="signup_register" data-recaptcha-widget><input type="hidden" name="recaptcha_public_key" value="6Lf4osISAAAAAJHn-CxSkM9YFNbirusAOEmxqMlZ" id="recaptcha_public_key"><div id="recaptcha_widget"><div class="image_and_buttons"><div id="recaptcha_image"></div></div><div class="form_row captcha_input"><input type="text" id="recaptcha_response_field" name="recaptcha_response_field" placeholder="Enter the text above" data-placeholder-audio="Enter what you hear" data-placeholder-visual="Enter the text above" data-required="required" autocorrect="off" autocapitalize="off" /><div class="captcha_controls"><a class="captcha_control refresh" title="Refresh Captcha" href="javascript:Recaptcha.reload()">Refresh</a><a class="captcha_control audio" title="Solve Audio Captcha" href="javascript:Recaptcha.switch_type('audio')">Audio</a><a class="captcha_control visual" title="Solve Visual Captcha" href="javascript:Recaptcha.switch_type('image')">Visual</a></div></div></div></div><div class="form_row_hidden"><input type="hidden" name="context" value="other"/><input type="hidden" name="version" value="STANDARD"/><input type="hidden" name="follow" value=""/><input type="hidden" name="redirect_to" value="/share?s=&amp;t=2+headline+winners+and+an+emphasis+on+punctuation&amp;u=http%3A%2F%2Finsidethunderdome.com%2F2013%2F12%2F09%2F2-headline-winners-emphasis-punctuation%2F&amp;v=3"/><input type="hidden" name="http_referer" value="http://insidethunderdome.com/2013/12/09/2-headline-winners-emphasis-punctuation/"/><input type="hidden" name="s" value=""/><input type="hidden" name="t" value="2 headline winners and an emphasis on punctuation"/><input type="hidden" name="u" value="http://insidethunderdome.com/2013/12/09/2-headline-winners-emphasis-punctuation/"/><input type="hidden" name="v" value="3"/><input type="hidden" name="form_key" value="!1231399412359|8Ht6gerFcBgYIsnpxkh936l4yFM" />        
+    <input type="hidden" id="seen_suggestion" name="seen_suggestion" value="0" /><input type="hidden" id="used_suggestion" name="used_suggestion" value="0" /></div>
+<button type="submit" class="signup_forms_submit_helper">Submit</button></form></div></div><ul class="signup_forms_errors" id="signup_form_errors"></ul><div id="suggested_usernames_container" class="hidden"><div class="popover popover_onboarding popover_menu popover_gradient nipple_on_left" style="display:none;"><div class="popover_inner"><div class="popover_header no_nipple">Suggested usernames</div><ul id="suggested_usernames"></ul></div></div></div><button class="chrome big signup_forms_submit touchy blue" id="signup_forms_submit"><span class="account_btn">Start</span><span class="birthday_btn">Next</span><span class="captcha_btn"><span><b>Almost</b> <b>Done!</b></span></span><span class="login_btn">Log in</span></button></div><div class="signup_waiting" id="signup_waiting"></div></div><script type="text/javascript">
+
+    var dialog_translations = {
+        'OK': 'OK',
+        'Cancel': 'Cancel',
+        'Nevermind': 'Nevermind',
+        'Ignore': 'Ignore', 
+        'Unfollow': 'Unfollow', 
+        'Confirm_Unfollow': 'Are you sure you want to unfollow %1$s?'    };
+
+    jQuery(document).ready(function($){
+
+        // Add translations to Tumblr.Dialog
+        if (_.isObject(Tumblr.Dialog)) {
+            Tumblr.Dialog.add_translations(dialog_translations);
+        }
+        
+    });
+    
+</script><script>
+            var _qevents = _qevents || [];
+            (function() {
+                var s = document.createElement('script');
+                var el = document.getElementsByTagName('script')[0];
+                s.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+                el.parentNode.insertBefore(s, el);
+            })();
+        </script><script type="text/javascript">
+            _qevents.push( { qacct: 'p-19UtqE8ngoZbM' } );
+        </script><noscript><div style="display: none;"><img src="https://pixel.quantserve.com/pixel/'p-19UtqE8ngoZbM'.gif" height="1" width="1" alt="Quantcast"/></div></noscript><script type="text/javascript">
+            var _comscore = _comscore || [];
+            _comscore.push(
+                { c1: "2", c2: '15742520' }
+            );
+            (function(){
+                var s = document.createElement("script");
+                var el = document.getElementsByTagName("script")[0];
+                s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+                el.parentNode.insertBefore(s, el);
+            })();
+        </script><noscript><img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=15742520&amp;cv=2.0&amp;cj=1" /></noscript><script type="text/javascript">!function(s){s.src='https://www.tumblr.com/impixu?T=1399412359&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvd3d3LnR1bWJsci5jb21cL2xvZ2luP3M9JnQ9MitoZWFkbGluZSt3aW5uZXJzK2FuZCthbitlbXBoYXNpcytvbitwdW5jdHVhdGlvbiZ1PWh0dHAlM0ElMkYlMkZpbnNpZGV0aHVuZGVyZG9tZS5jb20lMkYyMDEzJTJGMTIlMkYwOSUyRjItaGVhZGxpbmUtd2lubmVycy1lbXBoYXNpcy1wdW5jdHVhdGlvbiUyRiZ2PTMiLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvbG9naW4ifQ==&U=NIIGHJKEEN&K=5236d029f05a7b3bd337077925c317f8d40bc3dbef7708f6ce5bc5cbe3980bdb&R=http%3A%2F%2Finsidethunderdome.com%2F2013%2F12%2F09%2F2-headline-winners-emphasis-punctuation%2F'.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://www.tumblr.com/impixu?T=1399412359&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvd3d3LnR1bWJsci5jb21cL2xvZ2luP3M9JnQ9MitoZWFkbGluZSt3aW5uZXJzK2FuZCthbitlbXBoYXNpcytvbitwdW5jdHVhdGlvbiZ1PWh0dHAlM0ElMkYlMkZpbnNpZGV0aHVuZGVyZG9tZS5jb20lMkYyMDEzJTJGMTIlMkYwOSUyRjItaGVhZGxpbmUtd2lubmVycy1lbXBoYXNpcy1wdW5jdHVhdGlvbiUyRiZ2PTMiLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvbG9naW4iLCJub3NjcmlwdCI6MX0=&U=NIIGHJKEEN&K=5938be57d9d134c86909c6118e70b0d70fb0b23c3bf7f7316bd187f07bcf7ab2&R=http%3A%2F%2Finsidethunderdome.com%2F2013%2F12%2F09%2F2-headline-winners-emphasis-punctuation%2F"></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                    s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.14.js';
+                    s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            YAHOO.i13n.beacon_server = 'pclick.yahoo.com';
+                            var keys = { pd:'/login', _li:0, i_rad:0, i_strm:0, b_id:0 };
+                            var conf = {
+                                                                spaceid:1197719228,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script type="text/javascript">
+        if (window.Tumblr) {
+            Tumblr._log_lady_bootstrap = {"keys":{"search_landing_usage":{"init_event":false,"keep_counts":true,"flags":[]}},"default_session":"llsid53695687872a64.44695851"};
+        }
+    </script><script crossorigin="anonymous" src="https://secure.assets.tumblr.com/assets/scripts/dashboard.js?_v=02359a91b69897cd8affd673450a00cb"></script><script crossorigin="anonymous" src="https://secure.assets.tumblr.com/assets/scripts/registration/registration.js?_v=41c2628f5a1f654f5f4c92f927d44ea3"></script>
+<script>
+            jQuery(document).ready(function($){
+                if (Tumblr.RegistrationForm) {
+                    
+                    Tumblr.RegistrationForm.initialize({
+                        'use_illustrated_loader' : true,
+                        'tmx_url' : ''                    });
+                }
+            });
+        </script></body></html>
