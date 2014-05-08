@@ -313,7 +313,8 @@ body.custom-background { background-color: #466486; }
 						<img alt='' src='http://1.gravatar.com/avatar/589ff4633413c9ed4f2c42090cf67885?s=100&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D100&amp;r=G' class='avatar avatar-100 photo' height='100' width='100' />					</div><!-- .author-avatar -->
 					<div class="author-description">
 					<h2>By Julia Kern</h2>
-					<p>Julia Kern is a former intern for Digital First Media’s Project Thunderdome.</p>
+					<p>Julia Kern is a former intern for Digital First Media’s Project Thunderdome.
+</p>
 						<div class="author-link">
 							<a href="../../../../author/jkern/index.html" rel="author">
 								More about Julia Kern <span class="meta-nav">&rarr;</span>							</a>
@@ -353,13 +354,16 @@ body.custom-background { background-color: #466486; }
 
 	
 			<div id="secondary" class="widget-area" role="complementary">
-			<aside id="search-2" class="widget widget_search"><h3 class="widget-title">Search Inside Thunderdome</h3><form role="search" method="get" id="searchform" class="searchform" action="../../../../index.html">
+			<aside id="search-4" class="widget widget_search"><h3 class="widget-title">Search Inside Thunderdome</h3><form role="search" method="get" id="searchform" class="searchform" action="https://www.google.com/search">
 				<div>
-					<label class="screen-reader-text" for="s">Search for:</label>
-					<input type="text" value="" name="s" id="s" />
+					<label class="screen-reader-text" for="q">Search for:</label>
+					<input type="text" value="" name="q" id="q" />
+					<input style="display:none" type="checkbox" name="sitesearch"
+                         value="outsidethunderdome.com" checked>
 					<input type="submit" id="searchsubmit" value="Search" />
 				</div>
-			</form></aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
+			</form></aside><aside id="text-6" class="widget widget_text"><h3 class="widget-title">Upcoming Live Chats</h3>			<div class="textwidget"><div id="expert-widget">No live chats currently scheduled.</div></div>
+		</aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
 					<li>
 				<a href="../../../../2014/04/30/project-thunderdome-staff/index.html">Beyond Project Thunderdome: What&#8217;s next for the staff?</a>
 						</li>

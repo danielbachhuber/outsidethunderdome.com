@@ -344,7 +344,8 @@ What we ended up with feels like a strangely authentic and sweet look at a publi
 						<img alt='David Freid' src='../../../../content/uploads/2013/09/David-Freid_avatar_1379430654-100x100.jpg' class='avatar avatar-100 photo' height='100' width='100' />					</div><!-- .author-avatar -->
 					<div class="author-description">
 					<h2>By David Freid</h2>
-					<p>Since joining DFM, David has produced a range of videos, from an investigative multimedia feature about <a href="http://davidfreid.com/project/firearms-in-the-family/">guns in America</a>, to 15 second <a href="http://davidfreid.com/project/instragramming-the-news/"> Instragram explainers</a>, to painstaking videos showing stop-motion <a href="http://davidfreid.com/project/kitchen-pop/">food prep</a> . He also worked with the Denver Post’s Pulitzer Prize-winning photography team at the <a href="https://www.youtube.com/watch?v=2AkLtjwHbcY">2014 Super Bowl</a>, and produced a <a href="https://www.youtube.com/watch?v=QiCZnoqunnw&amp;feature=youtu.be">video</a> about Jimmy Fallon that @JimmyFallon made <a href="https://twitter.com/jimmyfallon/status/433280208154951680">Twitter-famous</a>.</p>
+					<p>Since joining DFM, David has produced a range of videos, from an investigative multimedia feature about <a href="http://davidfreid.com/project/firearms-in-the-family/">guns in America</a>, to 15 second <a href="http://davidfreid.com/project/instragramming-the-news/"> Instragram explainers</a>, to painstaking videos showing stop-motion <a href="http://davidfreid.com/project/kitchen-pop/">food prep</a> . He also worked with the Denver Post’s Pulitzer Prize-winning photography team at the <a href="https://www.youtube.com/watch?v=2AkLtjwHbcY">2014 Super Bowl</a>, and produced a <a href="https://www.youtube.com/watch?v=QiCZnoqunnw&amp;feature=youtu.be">video</a> about Jimmy Fallon that @JimmyFallon made <a href="https://twitter.com/jimmyfallon/status/433280208154951680">Twitter-famous</a>.
+</p>
 						<div class="author-link">
 							<a href="../../../../author/dfreid.1" rel="author">
 								More about David Freid <span class="meta-nav">&rarr;</span>							</a>
@@ -384,13 +385,16 @@ What we ended up with feels like a strangely authentic and sweet look at a publi
 
 	
 			<div id="secondary" class="widget-area" role="complementary">
-			<aside id="search-2" class="widget widget_search"><h3 class="widget-title">Search Inside Thunderdome</h3><form role="search" method="get" id="searchform" class="searchform" action="../../../../index.html">
+			<aside id="search-4" class="widget widget_search"><h3 class="widget-title">Search Inside Thunderdome</h3><form role="search" method="get" id="searchform" class="searchform" action="https://www.google.com/search">
 				<div>
-					<label class="screen-reader-text" for="s">Search for:</label>
-					<input type="text" value="" name="s" id="s" />
+					<label class="screen-reader-text" for="q">Search for:</label>
+					<input type="text" value="" name="q" id="q" />
+					<input style="display:none" type="checkbox" name="sitesearch"
+                         value="outsidethunderdome.com" checked>
 					<input type="submit" id="searchsubmit" value="Search" />
 				</div>
-			</form></aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
+			</form></aside><aside id="text-6" class="widget widget_text"><h3 class="widget-title">Upcoming Live Chats</h3>			<div class="textwidget"><div id="expert-widget">No live chats currently scheduled.</div></div>
+		</aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
 					<li>
 				<a href="../../../04/30/project-thunderdome-staff/index.html">Beyond Project Thunderdome: What&#8217;s next for the staff?</a>
 						</li>

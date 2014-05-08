@@ -318,7 +318,8 @@ body.custom-background { background-color: #466486; }
 						<img alt='Tom Meagher' src='../../../../content/uploads/2013/09/Tom-Meagher_avatar_1378212195-100x100.jpeg' class='avatar avatar-100 photo' height='100' width='100' />					</div><!-- .author-avatar -->
 					<div class="author-description">
 					<h2>By Tom Meagher</h2>
-					<p>Tom Meagher is the data editor at Thunderdome, leading a team of journalist-developers who build interactive web applications, support computer-assisted reporting projects in local newsrooms and offer training in data analysis and visualization. </p>
+					<p>Tom Meagher is the data editor at Thunderdome, leading a team of journalist-developers who build interactive web applications, support computer-assisted reporting projects in local newsrooms and offer training in data analysis and visualization. 
+</p>
 						<div class="author-link">
 							<a href="../../../../author/tmeagher.1" rel="author">
 								More about Tom Meagher <span class="meta-nav">&rarr;</span>							</a>
@@ -358,13 +359,16 @@ body.custom-background { background-color: #466486; }
 
 	
 			<div id="secondary" class="widget-area" role="complementary">
-			<aside id="search-2" class="widget widget_search"><h3 class="widget-title">Search Inside Thunderdome</h3><form role="search" method="get" id="searchform" class="searchform" action="../../../../index.html">
+			<aside id="search-4" class="widget widget_search"><h3 class="widget-title">Search Inside Thunderdome</h3><form role="search" method="get" id="searchform" class="searchform" action="https://www.google.com/search">
 				<div>
-					<label class="screen-reader-text" for="s">Search for:</label>
-					<input type="text" value="" name="s" id="s" />
+					<label class="screen-reader-text" for="q">Search for:</label>
+					<input type="text" value="" name="q" id="q" />
+					<input style="display:none" type="checkbox" name="sitesearch"
+                         value="outsidethunderdome.com" checked>
 					<input type="submit" id="searchsubmit" value="Search" />
 				</div>
-			</form></aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
+			</form></aside><aside id="text-6" class="widget widget_text"><h3 class="widget-title">Upcoming Live Chats</h3>			<div class="textwidget"><div id="expert-widget">No live chats currently scheduled.</div></div>
+		</aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
 					<li>
 				<a href="../../../04/30/project-thunderdome-staff/index.html">Beyond Project Thunderdome: What&#8217;s next for the staff?</a>
 						</li>
