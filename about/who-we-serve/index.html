@@ -451,7 +451,7 @@ var tableConfig = new Thunderdome.tableConfig({
 //callback function that draws map and grid
 var drawMapAndGrid = function() {
 	var collection;
-	Thunderdome.csv("/data/proxy.php", function(data) {
+	Thunderdome.csv("/data/outlets.csv", function(data) {
 	collection = new Backbone.Collection(data);
 	
 
